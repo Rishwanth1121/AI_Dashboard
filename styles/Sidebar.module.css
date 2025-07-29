@@ -1,0 +1,60 @@
+/* styles/Sidebar.module.css */
+.sidebar {
+  width: 240px;
+  min-height: 100vh;
+  background-color: #0d1b2a;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.logo {
+  font-size: 24px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #38bdf8;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 70px;
+  height: 70px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.role {
+  font-size: 15px;
+  color: #9ca3af;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.link {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 17px;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: #38bdf8;
+}
